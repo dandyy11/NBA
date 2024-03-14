@@ -1,0 +1,20 @@
+
+Descriptive Analysis Summary:
+- Average Age: 27.0 years
+- Average Height: 200.6 cm
+- Average Weight: 100.3 kg
+- Top 5 Teams by Player Count: CLE (450), TOR (446), MIA (443), DAL (443), WAS (442)
+- Top 5 Countries by Player Count: USA (10721), Canada (205), France (190), Australia (100), Spain (93)
+- Average Points Per Game: 8.2
+- Average Rebounds Per Game: 3.6
+- Average Assists Per Game: 1.8
+
+Diagnostic Analysis Summary:
+- Player performance metrics show varied relationships with age, suggesting optimal performance peaks at certain ages.
+- A positive correlation exists between player height and rebounds per game, indicating taller players are more likely to secure rebounds.
+
+Predictive Analysis Summary:
+- The simple linear regression model predicts a player's points per game based on age, height, and weight.
+- Mean Squared Error (MSE): 36.49
+- Root Mean Squared Error (RMSE): 6.04
+- Coefficients for Age (0.018), Player Height (-0.624), and Player Weight (0.336) indicate the influence of each feature on points per game.
